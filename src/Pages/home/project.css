@@ -1,0 +1,46 @@
+.card {
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    background: linear-gradient(rgb(225, 150, 58), rgb(227, 144, 91));
+    transition: 0.6s;
+    transform: rotateX(75deg) translateY(-200px) translateZ(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card:hover {
+    transform: rotateX(0deg);
+    transform: rotateZ(0deg);
+    transition: 0.6s;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card img {
+    transform: translateY(15px);
+    width: 200px;
+    height: 120px;
+  }
+  
+  h3 {
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 2px rgb(255, 255, 255);
+    transform: translateY(10px);
+  }
+  
+  p {
+    font-family: 'Abel', sans-serif;
+    color: white;
+    text-align: center;
+    width: 220px;
+    transform: translatex(12px);
+  }
+  
+  .tourist-attractions-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
